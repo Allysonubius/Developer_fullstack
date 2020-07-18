@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Allysonubius/Developer_fullstack/issues"
   },
-  "homepage": "https://github.com/Allysonubius/Developer_fullstack#readme"
+  "homepage": "https://github.com/Allysonubius/Developer_fullstack#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
 }
