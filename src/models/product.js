@@ -9,7 +9,7 @@ const schema = new Schema({
     },
     slug: {
         type: String,
-        required: true,
+        required: [true, 'O slug e obrigatório !'],
         trim: true,
         index: true,
         unique: true
