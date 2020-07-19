@@ -1,5 +1,3 @@
-'use strict'
-
 const app = require('../src/app');
 const debug = require('debug')('teste:server');
 const http = require('http');
@@ -11,7 +9,7 @@ const server = http.createServer(app);
 
 server.listen(port);
 server.on('error', onError);
-server.on('listening', onListenig);
+server.on('listen', onListen);
 console.log('API rodando na porta localhost:' + port);
 
 function normalizePort(val) {
@@ -26,7 +24,7 @@ function normalizePort(val) {
 }
 
 function onError(error) {
-    if (error.syscall !== 'liste') {
+    if (error.syscall !== 'listen') {
         throw error;
     }
 
@@ -48,7 +46,7 @@ function onError(error) {
     }
 }
 
-function onListenig() {
+function onListen() {
     const addr = server.address();
     const bind = typeof addr === 'string' ?
         'pipe' + addr :
