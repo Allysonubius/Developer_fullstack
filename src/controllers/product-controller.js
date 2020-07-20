@@ -1,16 +1,17 @@
 const mongoose = require('mongoose');
 const Product = mongoose.model('Product');
+const repository = require('../repositories/product-repository');
 
-exports.get = (req, res, next) => {
-    Product
-        .find({}, 'title price slug')
-        .then(data => {
-            res.status(200).send(data);
-        }).catch(e => {
-            res.status(400).send(e);
+exports.get = async(req, res, next) => {
+    try {
+        var data = await repository.get();
+        res.status(200).send(data);
+    } catch (e) {
+        res.status(500).send({
+            message: "Failed"
         });
+    }
 }
-
 exports.post = (req, res, next) => {
     var product = new Product(req.body);
     product
