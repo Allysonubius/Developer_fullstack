@@ -30,8 +30,9 @@
             </div>
             <h2 class="py-5">Participação de alunos</h2>
             <p class="py-2">Olá caro desenvolvedor, iniciando um projeto conte com a tabela de participação de grupo.</p>
-            <form>
+            <form id="alunos-form">
                 <div class="row">
+                    <ul id="mensagem"></ul>
                     <div class="col">
                         <input id="nome" type="text" class="form-control" placeholder="Insira seu nome ...">
                     </div>
@@ -47,7 +48,7 @@
                 </div>
             </form>
             <section>
-                <table id="alunos" class="table py-5">
+                <table id="alunos-tabela" class="table py-5">
                     <thead class="thead-dark">
                         <tr>
                             <th>NOMES</th>
