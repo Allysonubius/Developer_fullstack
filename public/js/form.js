@@ -3,13 +3,15 @@ botaoSubmit.addEventListener("click", function(event) {
     event.preventDefault();
     var form = document.querySelector("#alunos-form");
     var aluno = obtemAlunoFormulario(form);
+    // var alunoTr = montarTr(aluno);
+    // var tabela = document.querySelector("#alunos-tabela");
     var error = validaAluno(aluno);
     if (error.length > 0) {
         exibeMensagemErro(error);
         return;
     }
     adicionaAlunoTabela(aluno);
-    form.reset()
+    form.reset();
     var mensagemError = document.querySelector("#mensagem");
     mensagemError.innerHTML = "";
 });
@@ -17,7 +19,7 @@ botaoSubmit.addEventListener("click", function(event) {
 function adicionaAlunoTabela(aluno) {
     var alunoTr = montarTr(aluno);
     var tabela = document.querySelector("#alunos-tabela");
-    tabela.appendChild(alunoTr)
+    tabela.appendChild(alunoTr);
 }
 
 function validaAluno(aluno) {
@@ -30,7 +32,16 @@ function validaAluno(aluno) {
     return erros;
 }
 
-function montaTr(dado, classe) {
+function obtemAlunoFormulario(form) {
+    var aluno = {
+        nome: form.nome.value,
+        sobrenome: form.sobrenome.value,
+        participação: form.participação.value
+    }
+    return aluno;
+}
+
+function montarTd(dado, classe) {
     //Cria a TD
     var td = document.createElement("td");
     //Adiciona a classe
@@ -41,7 +52,7 @@ function montaTr(dado, classe) {
     return td;
 }
 
-function montaTr(aluno) {
+function montarTr(aluno) {
     //Cria a TR
     var alunoTr = document.createElement("tr");
     alunoTr.classList.add("aluno");
@@ -60,6 +71,7 @@ function exibeMensagemErro(error) {
 
     error.forEach(function(error) {
         var li = document.createElement("li");
-        li.textContent = erro
+        li.textContent = erro;
+        ul.appendChild(li);
     });
 }
