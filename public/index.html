@@ -10,12 +10,88 @@
 </head>
 
 <body>
-    <div id="app" class="container">
-
+    <div id="app">
+        <nav class="navbar navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/goal_48px.png" height="40" width="40" alt="favicon">
+                <span>Developer </span>
+            </a>
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Allysonubius" target="_blank" aria-label="Github">
+                        <img src="./img/github_32px.png" alt="Github">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <header class="container py-4">
+            <div>
+                <img src="img/BANNER-AGE.jpg" height="auto" alt="template">
+            </div>
+            <h2 class="py-5">Participação de alunos</h2>
+            <p class="py-2">Olá caro desenvolvedor, iniciando um projeto conte com a tabela de participação de grupo.</p>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input id="nome" type="text" class="form-control" placeholder="Insira seu nome ...">
+                    </div>
+                    <div class="col">
+                        <input id="sobrenome" type="text" class="form-control" placeholder="Insira seu sobrenome ...">
+                    </div>
+                    <div class="col">
+                        <input id="participação" type="number" class="form-control" placeholder="Participação ...">
+                    </div>
+                    <div class="col-auto ">
+                        <button id="Enviar" type="submit" class="btn btn-danger mb-2">Enviar</button>
+                    </div>
+                </div>
+            </form>
+            <section>
+                <table id="alunos" class="table py-5">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>NOMES</th>
+                            <th>SOBRENOMES</th>
+                            <th>PARTICIPAÇÂO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="info-nome">Lucas</td>
+                            <td class="info-sobrenome">Oliveira</td>
+                            <td class="info-participação">50%</td>
+                        </tr>
+                        <tr>
+                            <td class="info-nome">Andre</td>
+                            <td class="info-sobrenome">Santos</td>
+                            <td class="info-participação">25%</td>
+                        </tr>
+                        <tr>
+                            <td class="info-nome">Adriana</td>
+                            <td class="info-sobrenome">Roshes</td>
+                            <td class="info-participação">65%</td>
+                        </tr>
+                        <tr>
+                            <td class="info-nome">Ana</td>
+                            <td class="info-sobrenome">Vitoria</td>
+                            <td class="info-participação">85%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <footer class="footer mt-auto py-3">
+                <div class="container">
+                    <span class="text-muted">© Todos os diretos reservados - Allyson de Oliveira Brandão</span>
+                </div>
+            </footer>
     </div>
     <script src="https://cdn.js.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
-    <script>
+    <script src="js/form.js">
     </script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
