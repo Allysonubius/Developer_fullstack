@@ -8,6 +8,6 @@ router.put('/:id', controller.put);
 
 router.delete('/', controller.delete);
 
-
+router.get('/', controller.get)
 
 module.exports = router;

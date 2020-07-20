@@ -34,4 +34,3 @@ app.use('/', indexRoute);
 app.use('/products', productRoute);
 
 module.exports = app;
-module.exports = app;
