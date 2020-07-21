@@ -32,20 +32,22 @@ Desafio excelente pedido pela Cotabox, dentro deste projeto foi aplicado meus co
 <!--Segunda parte-->
 <tr>
 	<td width="20%" align="center">
-		<img src="https://img.icons8.com/color/48/000000/nodejs.png" heigth="40" width="50" alt="NodeJS"/>
+		<img src="https://img.icons8.com/color/48/000000/bootstrap.png" heigth="40" width="50" alt="NodeJS"/>
 		<span>Bootstrap</span>
 	</td>
 	<td width="20%" align="center">
-	 	<img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" heigth="40" width="50" alt="NodeJS"/>
+	 	<img src="https://img.icons8.com/color/48/000000/google-cloud-platform.png" heigth="40" width="50" alt="NodeJS"/>
 		<span>Google Cloud</span>
-	</td><td width="20%" align="center">
-		<img src="https://img.icons8.com/color/48/000000/mongodb.png"/ heigth="40" width="50" alt="NodeJS"/>
+	</td>
+    <td width="20%" align="center">
+		<img src="https://img.icons8.com/color/48/000000/git.png" heigth="40" width="50" alt="NodeJS"/>
 		<span>Git</span>
 	</td>
-	<td width="20%" align="center">
+    <td width="20%" align="center">
 	 	<img src="https://img.icons8.com/cotton/64/000000/block.png" heigth="40" width="50" alt="NodeJS"/>
 		<span>Notas</span>
-	</td><td width="20%" align="center">
+	</td>
+    <td width="20%" align="center">
 		<img src="https://img.icons8.com/clouds/100/000000/api.png" heigth="40" width="50" alt="NodeJS"/>
 		<span>Postman</span>
 	</td>
