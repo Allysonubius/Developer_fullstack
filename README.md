@@ -68,6 +68,10 @@ Desafio excelente pedido pela Cotabox, dentro deste projeto foi aplicado meus co
 
 [![Trello_img](https://trello-attachments.s3.amazonaws.com/5e6ab2c88109710b66a28743/5f162bd7617b2e053a4030dc/d83c416883977b1500e24f9956b70959/fullstack_3.jpeg "Trello_img")](http://https://trello-attachments.s3.amazonaws.com/5e6ab2c88109710b66a28743/5f162bd7617b2e053a4030dc/d83c416883977b1500e24f9956b70959/fullstack_3.jpeg "Trello_img")
 
+## Back End
+
+> O back end foi realizado a construção da API e ligado ao banco de dados Cloud, sendo assim criado os metodos GET, PUT, POST e DELETE para o desenvolvimento da aplicação com o Front End, sendo minha primeira vez realizado no desenvolvimento desta forma preferi não arriscar sem saber como fazer, futuramente haverá atualização para o recebimento das informações do front end para o banco de dados junto com o back end.
+
 ## Revisão do projeto
 
 O projeto foi realizado ate o nivel de conhecimento que apresento devido a isso busquei realizar o possivel para apresentar nesta entrevista, foi criado o banco de dados no cloud do Google com MongoDB no entanto o Front End não esta ligado com Back End, este desafio estarei devido o aprendizado realizado junto no processo de desenvolvimento dando continuidade nos possivel avanços de conhecimento.
@@ -80,7 +84,6 @@ O projeto foi realizado ate o nivel de conhecimento que apresento devido a isso 
 Abra index.html no browser para verificar o andamento do projeto  ou se preferir utilize o Go Live no VS Code.
 
 [![Linkedin: Allyson de Oliveira](https://img.shields.io/badge/-allysonoliveira-blue?style=flatsquare&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/allyson-de-oliveira-6b3596164/)](https://www.linkedin.com/in/allyson-de-oliveira/)
-
 [![Whatsapp](https://img.shields.io/badge/-Whatsapp-4CA143?style=flat-square&labelColor=4CA143&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=61991942160&text=Olá!)](https://api.whatsapp.com/send?phone=61991942160&text=Olá!)
 
 ⭐️ Criado por [Allyson Oliveira](https://github.com/Allysonubius)
